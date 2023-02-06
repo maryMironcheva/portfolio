@@ -97,3 +97,19 @@ a {
   font-size: 18px;
   margin: 70px 0 80px;
 }
+
+.skills__list-text {
+  color: #828282;
+  margin: 24px 0 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.stars__item--active path {
+  fill: #070707;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-between;
+}
