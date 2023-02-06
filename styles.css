@@ -113,3 +113,24 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.portfolio {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+
+.portfolio__list {
+  margin-top: 50px;
+}
+
+.portfolio__item-label {
+  margin-top: 45px;
+  text-decoration: underline;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__item {
+  margin-bottom: 100px;
+}
