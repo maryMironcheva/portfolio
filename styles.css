@@ -134,3 +134,51 @@ a {
 .portfolio__item {
   margin-bottom: 100px;
 }
+.portfolio__item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts {
+  margin: 115px 0;
+}
+
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts__text {
+  font-size: 18px;
+  width: 275px;
+  text-align: center;
+  padding: 20px 0 30px;
+}
+
+.contacts__button {
+  background-color: #070707;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 13px 30px;
+  border-radius: 180px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contacts__button:hover {
+  background-color: #fff;
+  color: #070707;
+}
+
+.media__list {
+  padding: 85px 0 45px;
+  display: flex;
+  justify-content: space-between;
+
+  width: 342px;
+}
+
+.contacts__text-sub {
+  font-size: 14px;
+  color: #828282;
+  text-align: center;
+}
