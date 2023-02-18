@@ -69,6 +69,10 @@ a {
 .preview__lang_active {
   color: #070707;
 }
+.photo__mobile {
+  display: none;
+}
+
 .about {
   background-color: #f6f6f6;
   padding: 120px 0;

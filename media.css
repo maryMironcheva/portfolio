@@ -9,6 +9,7 @@
   .preview__discr {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0;
   }
   .container {
     width: 90%;
@@ -32,5 +33,55 @@
   }
   .preview__name {
     line-height: 1;
+  }
+  .photo {
+    display: none;
+  }
+  .photo__mobile {
+    display: block;
+  }
+  .photo__mobile img {
+    width: 100%;
+  }
+  .preview__job {
+    margin: 23px 0 36px;
+  }
+
+  .skills__text {
+    margin: 50px 0 70px;
+  }
+
+  .skills__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__list-item {
+    margin-bottom: 80px;
+  }
+
+  .skills__list-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .portfolio__item-img {
+    max-width: 100%;
+    width: 316px;
+    height: auto;
+  }
+
+  .about__info {
+    width: auto;
+  }
+
+  .contacts__text {
+    width: 100%;
+  }
+  .contacts__button {
+    width: 100%;
+  }
+
+  .media__list {
+    width: 100%;
   }
 }
